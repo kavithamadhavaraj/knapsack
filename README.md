@@ -1,17 +1,16 @@
 # knapsack
 
-You want to send your friend a package with different things.
-Each thing you put inside the package has such parameters as index number, weight and cost.
-The package has a weight limit.
-Your goal is to determine which things to put into the package so that the total weight is less than or equal to the package limit and the total cost is as large as possible.
+You want to send your friend a package with different things.<br/>
+Each thing you put inside the package has such parameters as index number, weight and cost.<br/>
+The package has a weight limit. Your goal is to determine which things to put into the package so that the total weight is less than or equal to the package limit and the total cost is as large as possible.<br/>
 
-You would prefer to send a package which weights less in case there is more than one package with the same price.
+You would prefer to send a package which weights less in case there is more than one package with the same price.<br/>
 
 # input sample:
 
-Your program should accept as its first argument a path to a filename. The input file contains several lines. Each line is one test case.
+Your program should accept as its first argument a path to a filename. The input file contains several lines. Each line is one test case.<br/>
 
-Each line contains the weight that the package can take (before the colon) and the list of things you need to choose. Each thing is enclosed in parentheses where the 1st number is a thing's index number, the 2nd is its weight and the 3rd is its cost. E.g.
+Each line contains the weight that the package can take (before the colon) and the list of things you need to choose. Each thing is enclosed in parentheses where the 1st number is a thing's index number, the 2nd is its weight and the 3rd is its cost. E.g.<br/>
 
 81 : (1,53.38,$45) (2,88.62,$98) (3,78.48,$3) (4,72.30,$76) (5,30.18,$9) (6,46.34,$48)<br/>
 8 : (1,15.3,$34)<br/>
@@ -29,14 +28,14 @@ For each set of things that you put into the package provide a list (items’ in
 
 # constraints:
 
-Max weight that a package can take is ≤ 100
-There might be up to 15 items you need to choose from
-Max weight and cost of an item is ≤ 100
+Max weight that a package can take is ≤ 100<br/>
+There might be up to 15 items you need to choose from<br/>
+Max weight and cost of an item is ≤ 100<br/>
 
 
 ****************************************
-To run the program:
-cmd:> java fillbag.Bag (You must be outside the fillbag directory)
-When path is asked, provide a valid path.
-Eg: ./input.txt
+To run the program:<br/>
+cmd:> java fillbag.Bag (You must be outside the fillbag directory)<br/>
+When path is asked, provide a valid path.<br/>
+Eg: ./input.txt<br/>
 ****************************************
