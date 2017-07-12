@@ -34,9 +34,9 @@ There might be up to 15 items you need to choose from
 Max weight and cost of an item is ≤ 100
 
 
+****************************************
 To run the program:
-****************************************
-cmd:> java fillbag.Bag
-****************************************
+cmd:> java fillbag.Bag (You must be outside the fillbag directory)
 When path is asked, provide a valid path.
 Eg: ./input.txt
+****************************************
